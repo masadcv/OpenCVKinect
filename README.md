@@ -59,18 +59,16 @@ The update also fixes the following:
 
 Examples
 ========
-<img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/color/colorAGif.gif" alt="Color Image" style="width: 100px;"/>
-<img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/colorizedDepthAGif.gif" alt="Colorized Depth" style="width: 100px;"/>
 
-<img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00123.png" alt="Color Image" style="width: 200px;"/>
-<img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00126.png" alt="Color Image" style="width: 200px;"/>
-<img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00129.png" alt="Color Image" style="width: 200px;"/>
-<img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00132.png" alt="Color Image" style="width: 200px;"/>
-<img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00134.png" alt="Color Image" style="width: 200px;"/>
-<img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00137.png" alt="Color Image" style="width: 200px;"/>
-<img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00140.png" alt="Color Image" style="width: 200px;"/>
-<img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00143.png" alt="Color Image" style="width: 200px;"/>
-<img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00146.png" alt="Color Image" style="width: 200px;"/>
+:-------------------------:|:-------------------------:
+![Color Image](https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/color/colorAGif.gif)  |  ![Colorized Depth](https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/colorizedDepthAGif.gif)
+
+:-------------------------:|:-------------------------:
+![Colorized Depth](https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00123.png)  |  ![Colorized Depth](https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00126.png)
+![Colorized Depth](https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00129.png)  |  ![Colorized Depth](https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00132.png)
+![Colorized Depth](https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00134.png)  |  ![Colorized Depth](https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00137.png)
+![Colorized Depth](https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00140.png)  |  ![Colorized Depth](https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00143.png)
+![Colorized Depth](https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00146.png)  |  
 
 
 Copyright (C) 2013  Muhammad Asad
