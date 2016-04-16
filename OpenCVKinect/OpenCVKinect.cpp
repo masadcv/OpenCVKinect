@@ -241,9 +241,9 @@ cv::vector<cv::Mat> OpenCVKinect::getData()
 
 		}
 		m_depthImage = cv::Mat::zeros(m_colorImage.size(), CV_16UC1);
-		/*returnVec.push_back(m_depthImage);
+		returnVec.push_back(m_depthImage);
 		returnVec.push_back(m_colorImage);
-		bufferImage.release();*/
+		bufferImage.release();
 		return returnVec;
 
 	}
@@ -274,9 +274,9 @@ cv::vector<cv::Mat> OpenCVKinect::getData()
 
 		}
 		m_colorImage = cv::Mat::zeros(m_depthImage.size(), CV_8UC3);
-		/*returnVec.push_back(m_depthImage);
+		returnVec.push_back(m_depthImage);
 		returnVec.push_back(m_colorImage);
-		bufferImage.release();*/
+		bufferImage.release();
 		return returnVec;
 	}
 	else

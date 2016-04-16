@@ -25,10 +25,12 @@
 
 
 #pragma once
-#include <OpenNI.h>
-#include <cv.h>
-#include <highgui.h>
+#include <openni\OpenNI.h>
+#include <opencv\cv.h>
+#include <opencv\highgui.h>
 #include <vector>
+#include <opencv2/contrib/contrib.hpp>
+#include <opencv2/core/core.hpp>
 
 #define C_DEPTH_STREAM 0
 #define C_COLOR_STREAM 1

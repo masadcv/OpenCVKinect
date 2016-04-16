@@ -1,0 +1,23 @@
+﻿Build started 16/04/2016 15:09:59.
+     1>Project "C:\Researchwork\VCProj\OpenCVKinect\OpenCVKinect\OpenCVKinect.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\OpenCVKinect.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Researchwork\VCProj\OpenCVKinect\Release\OpenCVKinect.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\lib opencv_imgproc247.lib opencv_core247.lib opencv_highgui247.lib opencv_contrib247.lib OpenNI2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\OpenCVKinect.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Researchwork\VCProj\OpenCVKinect\Release\OpenCVKinect.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Researchwork\VCProj\OpenCVKinect\Release\OpenCVKinect.lib" /MACHINE:X86 Release\main.obj
+         Release\OpenCVKinect.obj
+         Generating code
+         Finished generating code
+         OpenCVKinect.vcxproj -> C:\Researchwork\VCProj\OpenCVKinect\Release\OpenCVKinect.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Researchwork\VCProj\OpenCVKinect\Release\OpenCVKinect.exe;#1" /manifest Release\OpenCVKinect.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\OpenCVKinect.unsuccessfulbuild".
+         Touching "Release\OpenCVKinect.lastbuildstate".
+     1>Done Building Project "C:\Researchwork\VCProj\OpenCVKinect\OpenCVKinect\OpenCVKinect.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34

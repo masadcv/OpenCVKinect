@@ -39,13 +39,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\OpenCVFiles\OpenCV-2.4.7.2VC\include;C:\OpenCVFiles\OpenCV-2.4.7.2VC\include\opencv;C:\OpenCVFiles\OpenCV-2.4.7.2VC\include\opencv2;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\OpenCVFiles\OpenCV-2.4.7.2VC\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\OpenCVFiles\OpenCV-2.4.7.2VC\include;C:\OpenCVFiles\OpenCV-2.4.7.2VC\include\opencv;C:\OpenCVFiles\OpenCV-2.4.7.2VC\include\opencv2;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\OpenCVFiles\OpenCV-2.4.7.2VC\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -54,13 +54,13 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(OPENNI2_INCLUDE)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(OPENNI2_LIB)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_imgproc247d.lib;opencv_core247d.lib;opencv_highgui247d.lib;OpenNI2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_imgproc247d.lib;opencv_core247d.lib;opencv_highgui247d.lib;opencv_contrib247d.lib;OpenNI2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -72,15 +72,15 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(OPENNI2_INCLUDE)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>$(OPENNI2_LIB)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_imgproc247d.lib;opencv_core247d.lib;opencv_highgui247d.lib;OpenNI2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>.\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_imgproc247.lib;opencv_core247.lib;opencv_highgui247.lib;opencv_contrib247.lib;OpenNI2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
