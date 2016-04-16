@@ -59,8 +59,8 @@ The update also fixes the following:
 
 Examples
 ========
-<img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/color/colorAGif.gif" alt="Color Image" style="width: 200px;"/>
-<img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/colorizedDepthAGif.gif" alt="Colorized Depth" style="width: 200px;"/>
+<img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/color/colorAGif.gif" alt="Color Image" style="width: 100px;"/>
+<img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/colorizedDepthAGif.gif" alt="Colorized Depth" style="width: 100px;"/>
 
 <img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00123.png" alt="Color Image" style="width: 200px;"/>
 <img src="https://github.com/devkicks/OpenCVKinect/blob/master/CollectedSampleData/colorizedDepth/b/colorizedDepth_00126.png" alt="Color Image" style="width: 200px;"/>
