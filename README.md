@@ -79,7 +79,7 @@ Examples
 
 Copyright (C) 2013  Muhammad Asad
 - Webpage: http://seevisionc.blogspot.co.uk/p/about.html
-- Contact: masad.801@gmail.com
+- Contact: masadcv@gmail.com
 
 
 This program is free software: you can redistribute it and/or modify
