@@ -33,9 +33,13 @@ setMode(flag) - for specifying the data streams which will be returned
                 - C_MODE_DEPTH | C_MODE_COLOR | C_MODE_ALIGNED
 
 init() - initializing the data streams and device drivers
+
 getData() - to get a vector of OpenCV Mat giving Depth and Color streams
+
 getColor() - get Color stream
+
 getDepth() - get Depth stream
+
 
           Return a cv::vector <cv::Mat> which can be accessed with index flags
           - C_DEPTH_STREAM
